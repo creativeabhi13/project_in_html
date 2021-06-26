@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE-JUNKIE|PAYMENT</title>
+    <link rel="icon" href="/IMAGES/download.jfif">
+    <h1>YOU CAN PAY BY UPI AND CARD </h1>
+    <a href="form1.html" target="_blank">PAYMENT THROUGH UPI </a><br><br>
+    <link rel="stylesheet" href="CSS/css22.css" type="text/css">
+    <style>
+        body{
+            background-image: url(IMAGES/pexels-photo.jpg);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="outer1">
+    <a href="#down">GO TO DOWN</a>
+    <h1 id="down"></h1>
+    <h1 id="top"></h1>
+    <h2>Payment Form</h2>
+    <h2>Contact Information</h2>
+    <h3>Required Field followed by *</h3>
+    
+    <!--checkbox using-->
+    <p>you are intrested in :-</p>
+    <input type="checkbox" value="javascript" name="programming" id=""> javascript
+    <input type="checkbox" value="java" name="programming" id=""> java
+    <input type="checkbox" value="html" name="programming" id=""> html
+    <input type="checkbox" value="c/c++" name="programming" id=""> c/c++
+    <input type="checkbox" value="python" name="programming" id=""> python
+    <input type="checkbox" value="php" name="programming" id=""> php
+    <br>
+    <br>
+    </div>
+    <div class="inner">
+    <form action="" method="">
+         <!--text using-->
+        <label for="id">First Name:*</label>
+        <input type="text" name="Name" id="Name"required placeholder="enter your first name" required> 
+        <br>
+        <br>
+        
+        <label for="id">Last Name:*</label>
+        <input type="text" name="Name" id="Name"required placeholder="enter your last name"required>
+        <br>
+
+        <fieldset>
+        <legend>Gender</legend>
+        <label for="id">Male</label>
+         <!--radio button using-->
+        <input type="radio" name="Gender" id="Male">
+        <label for="id">Female</label>
+        <input type="radio" name="Gender" id="Female">
+    </fieldset>
+    </div>
+<div class="outer2">
+        <br>
+        <label for="id">Address:</label><br>
+        <textarea name="" id="" cols="30" rows="10"required placeholder="enter your permanent /temporary address"></textarea>
+        <br>
+        <br>
+        <label for="id">Email:*</label>
+        <input type="email" name="email" id="email"required placeholder="enter your email"required>
+        <br>
+        <br>
+        <label for="id">Pincode:*</label>
+        <input type="number" name="pincode" id="pincode" required placeholder="enter your Pincode"required>
+        <hr>
+        </div>
+        <h2>-----------------Payment Through Card----------------------------------------</h2>
+       <div class="inner1">
+        <br>
+        <label for="id">CARD TYPE:*</label>
+        <select name="card type" id="type">
+                <option value="">---select a card type----</option>
+                <option value="Visa"> Visa</option>
+                <option value="Rupay"> Rupay</option>
+                <option value="Mastercard">Mastercard</option>
+
+        </select>
+
+
+        <br>
+        <br>
+        <label for="id">Card Numbar:*</label>
+        <input type="number" name="pincode" id="pincode" required placeholder="enter your card number"required>
+        <br>
+        <br>
+        <label for="id">Expiration Date:*</label>
+        <input type="date" name="exp_date" id="exp_date"required>
+        <br>
+        <br>
+        <label for="id">CVV:*</label>
+        <input type="password" name="CVV" id="CVV" required placeholder="enter your cvv"required>
+        <br>
+        <br>
+         <!--submit button using-->
+        <button type="submit">Pay Now</button>
+          <br>
+          
+
+<!-- <hr>
+<h2>Payment Mode 2</h2>
+       
+        <br>
+        <label for="id">UPI:*</label>
+        <select name="upi type" id="type">
+                <option value="">---select a Upi----</option>
+                <option value="google PAY"> GOGLE PAY</option>
+                <option value="phone PAY"> PHONE PAY</option>
+                <option value="AMAZON PAY">AMAZON PAY</option>
+                <option value="ANY UPI">UPI <DETAils></DETAils></option>
+
+        </select>
+
+
+        <br>
+        <br>
+        <label for="id">MOBILE NUMBER:*</label>
+        <input type="number" name="pincode" id="pincode" required placeholder="enter your MOBILE number"required>
+        <br>
+        
+        <br>
+        <label for="id">OTP:*</label>
+        <input type="password" name="CVV" id="CVV" required placeholder="enter your cvv"required>
+        <br>
+        <br>
+        <button type="submit">Pay Now</button>
+          <br>
+          
+ -->
+
+    </form>
+    <a href="#top">GO TO TOP</a>
+    </div>
+</body>
+</html>
